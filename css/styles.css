@@ -1,0 +1,102 @@
+:root {
+  --main-bg-color: grey;
+  --website-bg-color: #fff;
+  --header-bg-color: #0c111f;
+  --header-website-name: #fff;
+  --header-nav-color: rgba(255, 255, 255, 60%);
+  --header-nav-hover: #fff;
+  --header-logreg-color: #fff;
+  --header-logreg-hover: #0c111f;
+  --header-logreg-hoverbg: #fff;
+  --header-nd-title: #e97458;
+  --header-main-title: #fff;
+  --header-paragraph-title: rgba(255, 255, 255, 70%);
+  --header-btn-text-color: #0c111f;
+  --header-btn-bg-color: linear-gradient(to right bottom, #f9ec7d, #f5b100);
+  --header-ourgallery-color: #fff;
+  --header-navwebsite-fontfam: "Inter", sans-serif;
+  --header-nd-title-fontfam: "Inter", sans-serif;
+  --header-main-title-fontfam: "Volkhov", sans-serif;
+  --header-paragraph-title-fontfam: "Inter", sans-serif;
+  --header-buttons-fontfam: "Inter", sans-serif;
+  --experience-title: ##0c111f;
+  --experience-paragraph-title: #0c111f;
+  --experience-list-title-color: #0c111f;
+  --experience-list-p-color: #0c111f;
+  --experience-title-fontfam: "Inter", sans-serif;
+  --experience-paragraph-title-fontfam: "Inter", sans-serif;
+  --experience-list-title-fontfam: "Montserrat", sans-serif;
+  --experience-list-p-fontfam: "Inter", sans-serif;
+  --destination-title-color: #0c111f;
+  --destination-paragraph-color: #0c111f;
+  --destination-arrow-color: #fff;
+  --destination-arrow-hover-color: #0c111f;
+  --destination-list-title-color: #0c111f;
+  --destination-list-p-color: rgba(12, 17, 31, 0.6);
+  --destination-list-bg-color: #f7f7f7;
+  --destination-price-color: rgba(12, 17, 31, 0.6);
+  --destination-price-num-color: #0c111f;
+  --destination-person-color: rgba(12, 17, 31, 0.6);
+  --destination-btn-color: #fff;
+  --destination-btn-bg-color: linear-gradient(to right, #8482ff, #7723fe);
+  --destination-boxshadow-color: rgba(119, 35, 254, 0.76);
+  --destination-title-fontfam: "Inter", sans-serif;
+  --destination-paragraph-color: "Inter", sans-serif;
+  --destination-list-title-fontfam: "Montserrat", sans-serif;
+  --destination-list-p-fontfam: "Inter", sans-serif;
+  --destination-price-fontfam: "Inter", sans-serif;
+  --destination-price-num-fontfam: "Montserrat", sans-serif;
+  --destination-person-fontfam: "Inter", sans-serif;
+  --destination-btn-fontfam: "Inter", sans-serif;
+  --contact-bg-color: #0c111f;
+  --contact-title-color: #fff;
+  --contact-p-color: rgba(255, 255, 255, 0.64);
+  --contact-btn-color: #0c111f;
+  --contact-bg-color: linear-gradient(to right bottom, #f9ec7d, #f5b100);
+  --contact-bg-fav-color: #0c111f;
+  --contact-title-fontfam: "Inter", sans-serif;
+  --contact-p-fontfam: "Inter", sans-serif;
+  --contact-btn-fontfam: "Inter", sans-serif;
+  --opinion-main-bg-color: #f7f7f7;
+  --opinion-main-title-color: #0c111f;
+  --opinion-main-title-p-color: #0c111f;
+  --opinion-bg-color: #fff;
+  --opinion-name-color: #0c111f;
+  --opinion-p-color: #0c111f;
+  --opinion-arrow-bg-color: #fff;
+  --opinion-arrow-bg-hover-color: #0c111f;
+  --opinion-title-fontfam: "Inter", sans-serif;
+  --opinion-title-p-fontfam: "Inter", sans-serif;
+  --opinion-name-fontfam: "Montserrat", sans-serif;
+  --opinion-p-fontfam: "Inter", sans-serif;
+  --footer-bg-color: #fff;
+  --foter-logo-bg-color: rgba(12, 17, 31, 0.8);
+  --footer-website-color: #0c111f;
+  --footer-main-p-color: #0c111f;
+  --footer-link-title-color: #0c111f;
+  --footer-link-list-color: #0c111f;
+  --footer-rights-color: #0c111f;
+  --footer-website-fontfam: "Inter", sans-serif;
+  --footer-main-p-fontfam: "Inter", sans-serif;
+  --footer-link-title-fontfam: "Inter", sans-serif;
+  --footer-rights-fontfam: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+.container {
+  width: 1440px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background: var(--website-bg-color);
+}
