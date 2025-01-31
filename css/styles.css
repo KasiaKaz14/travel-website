@@ -719,6 +719,7 @@ body {
   margin-right: 92px;
   border-radius: 25px;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 
 .opinion__img {
